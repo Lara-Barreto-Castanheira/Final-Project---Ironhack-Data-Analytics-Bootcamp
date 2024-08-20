@@ -32,38 +32,38 @@ A Streamlit application was developed to facilitate interaction with the model. 
 * Streamlit
 
 ## Installation
-* 1. Create a Conda environment:
+### * 1. Create a Conda environment:
 
 conda create -n yolov5_env python=3.8
 conda activate yolov5_env
 
-* 2. Install the requirements:
+### * 2. Install the requirements:
 
 pip install -r requirements.txt
 
-* 3. Clone the YOLOv5 repository from Ultralytics:
+### * 3. Clone the YOLOv5 repository from Ultralytics:
 
 git clone https://github.com/ultralytics/yolov5
 
-* 4. Navigate to the project directory:
+### * 4. Navigate to the project directory:
 
 !cd yolov5
 
-* 5. Add the YAML configuration file to the data Yolov5 folder.
+### * 5. Add the YAML configuration file to the data Yolov5 folder.
 
-* 6. Train the model as needed:
+### * 6. Train the model as needed:
 
 !cd yolov5 && python train.py --img 640 --batch 16 --epochs 50 --data data/your_file.yaml --weights yolov5s.pt
 
 
 ## Using the Streamlit Application
-* 1.Ensure you are in the Conda environment (yolov5_env).
+### * 1.Ensure you are in the Conda environment (yolov5_env).
 
-* 2.Run the application:
+### * 2.Run the application:
   
   streamlit run your_application.py
 
-* 3.Access the link provided by Streamlit to interact with the application.
+### * 3.Access the link provided by Streamlit to interact with the application.
 
 
 ## License
